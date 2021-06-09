@@ -1,0 +1,44 @@
+.maincon {
+    background: black;
+    text-align: center;
+}
+
+.firstcon {
+ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.display {
+    background: black;
+}
+
+.bar {
+    
+    background-color: rgb(93, 182, 93);
+    width: 60%;
+    height: 5px;
+    margin: auto;
+
+}
+
+#logo{
+    width: 400px; 
+    height: 100px;
+}
+@media (max-width: 700px){
+    #logo{
+        width: 200px; 
+        height: 50px;
+
+    }
+
+    .bar {
+        background-color: rgb(93, 182, 93);
+        width: 60%;
+        height: 2px;
+    
+    }
+
+
+}

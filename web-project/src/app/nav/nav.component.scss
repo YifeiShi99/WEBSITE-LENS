@@ -1,0 +1,40 @@
+.spacer{
+    flex-grow: 4;
+}
+.color{
+    background: rgb(0, 0, 0);  /* fallback for old browsers */
+  
+   
+}
+
+.text{
+    color: whitesmoke;
+    
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    outline-width: 0;
+}
+
+.spacer {
+    width: 100px;
+    color: black;
+}
+.example-icon {
+    padding: 0 14px;
+  }
+  
+.example-spacer {
+flex: 1 1 auto;
+}
+
+.text {
+    color: white;
+}
+
+
+
+
+
+

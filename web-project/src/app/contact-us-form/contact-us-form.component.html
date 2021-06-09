@@ -1,0 +1,45 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Add font awesome CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Responsive Form</title>
+    </head>
+<body>
+<!-- contact section -->
+    <section id="contact-section">
+        <div class="container">
+            <h2 class = 'title'>Contact Us</h2>
+            <p>Email us and keep upto date with our latest news</p>
+        <div class="contact-form">
+
+                <!-- First grid -->
+            <div>
+                <i class="fa fa-map-marker"></i><span class="form-info">San Francisco, Bay area</span><br>
+                <i class="fa fa-phone" > </i><span class="form-info">+1 510-000-0000</span><br>
+                <i class="fa fa-envelope"></i><span class="form-info">someone123@Gmail.com</span>
+            </div>
+            
+                <!-- second grid -->
+        <div>        
+            <form [formGroup] = 'ContactUsForm' > 
+            <span class = 'test'>name</span><br>
+            <input class ='input' type ='text' formControlName = 'Cname'  [(ngModel)]="name"> <br>
+            <span class = 'test'>email</span><br>
+            <input class ='input' type ='text' formControlName = 'Cemail' [(ngModel)]="email"><br>
+            <span class = 'test'>message</span><br>
+            <input class ='input' style="height:200px;" type ='text' formControlName = 'Cmessage'  [(ngModel)]="message"><br>
+            <button type="submit" class="button is-danger is-large" (click)="onSubmit()" (click)="clearForm()">Submit</button>
+        </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+
+

@@ -1,0 +1,206 @@
+
+
+.color{
+    background-color:rgb(0, 0, 0);
+    display: cover;
+}
+
+.homebuttons{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.text1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font-family:'Open Sans', sans-serif ;
+}
+
+.text2{
+    text-align: center;
+}
+
+.text-small{
+    color:#a0a0a0;
+}
+
+.foot{
+    text-align: right;
+    background: rgb(92, 92, 92);
+    height: 50px;
+    font-family:'Open Sans', sans-serif ;
+    display: cover;
+}
+
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-inner::after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+
+.sm{
+    padding-top: 80px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.sm a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #3c4b5a;
+    font-size: 30px;
+    transition: 0.4s;
+    border-radius: 50%
+  }
+
+  .sm a:hover{
+    background: #2c3e50;
+    color: white;
+  }
+  
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+
+    color: white;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+  .type{
+    padding-bottom: 225px;
+  }
+
+  .parallax {
+    background: url('../../assets/image/camer.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+  }
+
+  .button {
+    background-color: rgb(27, 27, 27);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    color: rgb(131, 131, 131);
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: transform .2s;
+    
+  }
+  .button:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2)
+  }
+
+
+
+
+  @media (max-width: 700px){
+    .carousel-item{
+      height: 300px;
+  } 
+  .carousel-item img{
+      height: 300px;
+  }
+
+  .typewriter h1 {
+    font-size: 10px;
+    color: white;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  .button {
+    background-color: rgb(27, 27, 27);
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    color: rgb(131, 131, 131);
+    font-family:'Open Sans', sans-serif ;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+
+  .parallax {
+    background: url('../../assets/image/camer.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150px;
+  }
+
+
+  
+  
+  
+  
+
+  }
+
+
+
+
+
+
+  
+ 
